@@ -1,4 +1,5 @@
 chromadb
+sqlite
 huggingface-hub
 langchain
 langchain-community
