@@ -12,3 +12,5 @@ PyYAML
 streamlit
 tiktoken
 toml
+python-docx
+docx
