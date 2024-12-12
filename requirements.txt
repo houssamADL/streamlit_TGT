@@ -1,4 +1,4 @@
-chromadb
+chromadb==0.3.22
 rank_bm25
 huggingface-hub
 langchain
