@@ -1,4 +1,6 @@
 chromadb==0.3.22
+pydantic-settings
+pydantic
 rank_bm25
 huggingface-hub
 langchain
