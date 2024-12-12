@@ -1,0 +1,34 @@
+EAGLE:
+EAGLE plan is not aligned with what it stands for:
+Expectations
+Apply lessons from the past
+Generate from target backwards
+Lay out contingencies
+Enemy's perspective
+
+
+VIPER:
+V - Verify Big Picture
+Statement
+I - Inspire with Brief Overview
+Statement
+P - Provide Specifics
+Statement
+E - Explain Contingencies
+Statement
+R - Remind the team of Success Factor
+
+F4 Debrief:
+The F4 Debrief is composed by Facts, Focus, Framing and Way Forward.
+
+The contingency explanation is ok. The enemy's perspective not so much.
+Evaluating from the enemy’s perspective in E.A.G.L.E. planning is about proactively identifying weaknesses in a plan by adopting the mindset of a disruptor, anything that could derail its success. Using the concept of Red Teaming, team members actively search for flaws, blind spots, or risks, encouraging accountability and critical thinking. This step avoids emotional attachment to the plan and welcomes constructive critique, especially from those not involved in its initial creation. Leaders should guide the process by asking targeted questions about risks and requiring everyone to find at least one potential issue. This approach helps refine the plan, add contingencies, and prepare for disruptions, ultimately strengthening the strategy and making it more resilient.
+
+
+SMART is not mentioned in the course. Let's focus on the characteristics of objectives as measurable, achievable and time-bound only.
+
+The following "Alignment with Purpose: Make sure that the success criteria are aligned with the broader organizational mission and purpose. This ensures that every effort contributes to the larger goals of the organization." is good but is not quite there. Purpose is related to the why we are doing this, how do we contribute.
+
+Although the following is not mentioned as a formality, I like the suggestion. Maybe this can be communicated as that, no precisely part of TGT methodology but as a suggestion to keep track:
+Quantitative and Qualitative Metrics: Use both quantitative (e.g., sales targets, timeframes) and qualitative (e.g., customer satisfaction, team morale) measures to define success. This provides a balanced view.
+
