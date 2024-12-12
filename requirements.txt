@@ -1,5 +1,4 @@
 chromadb
-sqlite3
 rank_bm25
 huggingface-hub
 langchain
