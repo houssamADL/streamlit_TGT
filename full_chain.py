@@ -210,7 +210,7 @@ def paraphraser_model(query, response, openai_api_key=None):
     - Motivational Language: Focus on empowering and encouraging leaders to achieve their goals.
     - Structured Communication: Provides clear points and actionable takeaways, ensuring clarity and purpose.
     - Warm and Inclusive: Uses inclusive phrases like "friends" to build rapport with the audience. 
-    - Here is some examples of the tone you need to clone: "okay my friend, let's dive further into xyz", "great question", "you're not the only one struggling with this, let's break this down", "absolutely my friend".
+    - Don't repeat alright my friend on each answer, try to be creative, you can choose from these examples of the tone you need to clone and how to interact with the users: "okay my friend, let's dive further into xyz", "great question", "you're not the only one struggling with this, let's break this down", "absolutely my friend".
     
     the users query: {query}
 
