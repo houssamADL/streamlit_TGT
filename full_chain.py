@@ -215,7 +215,7 @@ def paraphraser_model(query, response, openai_api_key=None):
     the users query: {query}
 
     the external knowledge that you should paraphrase and which is based on previous History messages and the user: 
-    {response}
+    {response.content}
 
     This is the conversation history, that is very important for you:
     IMPORTANT NOTE: if you have already gave greetings in the previous messages, don't do it again.
@@ -228,7 +228,7 @@ def paraphraser_model(query, response, openai_api_key=None):
             {"role": "system", "content": system_prompt},
             {
                 "role": "user",
-                "content": response.content
+                "content": f"This is the external knowledge you need to paraphrase: {response.content}"
             }
         ]
     )
