@@ -120,6 +120,7 @@ def paraphraser_model(query, response, openai_api_key=None):
     client = OpenAI(api_key=openai_api_key)
     history = manager.get_history()
     system_prompt = f"""
+    You are an AI assistant that does paraphrasing of the context retrieved from our database (RAG answer) and provide it to the users with Cujo's tone defines below.
     The following information is clear definitions of each planning style outlined in the provided documents. EAGLE and VIPER are acronyms for the information below. They are both meeting styles that follow the acronyms formula without fail. It is a strict structure. 
 
 
@@ -213,7 +214,7 @@ def paraphraser_model(query, response, openai_api_key=None):
     
     the users query: {query}
 
-    the RAG model response that is based on previous History messages and the user (this is for you to get external knowledge, and it is not the user's answer): 
+    the external knowledge that you should paraphrase and which is based on previous History messages and the user: 
     {response}
 
     This is the conversation history, that is very important for you:
