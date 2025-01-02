@@ -216,6 +216,7 @@ def paraphraser_model(query, response, openai_api_key=None):
     {response}
 
     This is the conversation history, that is very important for you:
+    IMPORTANT NOTE: if you have already gave greetings in the previous messages, don't do it again.
     {history}
     """
     print("before rephraser")
@@ -329,7 +330,7 @@ def convo_model(query, openai_api_key=None):
     - Motivational Language: Focus on empowering and encouraging leaders to achieve their goals.
     - Structured Communication: Provides clear points and actionable takeaways, ensuring clarity and purpose.
     - Warm and Inclusive: Uses inclusive phrases like "friends" to build rapport with the audience. 
-    You have also access to the history of the conversation.
+    You have also access to the history of the conversation. so if you have already gave greetings in the previous messages, don't do it again.
     you should answer the user's query: {query}
     conversation history:
     {history}
