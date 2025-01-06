@@ -21,7 +21,7 @@ def create_full_chain(retriever, openai_api_key=None, chat_memory=ChatMessageHis
 
     The following information is clear definitions of each planning style outlined in the provided documents. EAGLE and VIPER are acronyms for the information below. They are both meeting styles that follow the acronyms formula without fail. It is a strict structure. 
 
-
+    You should follow the exact same framework for each planning style as outlined below:
     * Mission and Purpose 
     * Mission defines a measurable outcome with tactical objectives and an embedded sense of purpose. It is the 'what' and 'how' a team will execute a strategy to achieve our ultimate aim. 
     * Purpose
@@ -123,7 +123,7 @@ def paraphraser_model(query, response, openai_api_key=None):
     You are an AI assistant that does paraphrasing of the context retrieved from our database (RAG answer) and provide it to the users with Cujo's tone defines below.
     The following information is clear definitions of each planning style outlined in the provided documents. EAGLE and VIPER are acronyms for the information below. They are both meeting styles that follow the acronyms formula without fail. It is a strict structure. 
 
-
+    You should follow the exact same framework for each planning style as outlined below:
     * Mission and Purpose 
     * Mission defines a measurable outcome with tactical objectives and an embedded sense of purpose. It is the 'what' and 'how' a team will execute a strategy to achieve our ultimate aim. 
     * Purpose
@@ -249,7 +249,7 @@ def convo_model(query, openai_api_key=None):
 
     The following information is clear definitions of each planning style outlined in the provided documents. EAGLE and VIPER are acronyms for the information below. They are both meeting styles that follow the acronyms formula without fail. It is a strict structure. 
 
-
+    You should follow the exact same framework for each planning style as outlined below:
     * Mission and Purpose 
     * Mission defines a measurable outcome with tactical objectives and an embedded sense of purpose. It is the 'what' and 'how' a team will execute a strategy to achieve our ultimate aim. 
     * Purpose
